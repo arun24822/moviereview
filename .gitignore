@@ -4,3 +4,4 @@ db.sqlite3
 venv/
 .env
 mysite_data.jsontmp
+*.sqlite3
