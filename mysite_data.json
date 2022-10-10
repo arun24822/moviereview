@@ -1,0 +1,698 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-10-07T15:25:40.876Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Movie object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2022-10-07T15:26:17.364Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Movie object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2022-10-07T15:26:54.738Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Movie object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2022-10-07T15:56:54.143Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Movie object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2022-10-07T15:57:12.987Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Movie object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2022-10-07T15:57:48.663Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Movie object (3)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2022-10-07T16:46:36.663Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "News object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2022-10-07T16:47:14.546Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "News object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2022-10-07T16:47:44.992Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "News object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2022-10-08T09:17:51.881Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Movie object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Url\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add movie",
+    "content_type": 7,
+    "codename": "add_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change movie",
+    "content_type": 7,
+    "codename": "change_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete movie",
+    "content_type": 7,
+    "codename": "delete_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view movie",
+    "content_type": 7,
+    "codename": "view_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add news",
+    "content_type": 8,
+    "codename": "add_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change news",
+    "content_type": 8,
+    "codename": "change_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete news",
+    "content_type": 8,
+    "codename": "delete_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view news",
+    "content_type": 8,
+    "codename": "view_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add review",
+    "content_type": 9,
+    "codename": "add_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change review",
+    "content_type": 9,
+    "codename": "change_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete review",
+    "content_type": 9,
+    "codename": "delete_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view review",
+    "content_type": 9,
+    "codename": "view_review"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$wsw6kBnym9DFjKN5qKmpor$ebU11mGKF13b5g8o1YFSDH2xoyfPgErfgcLfDF9jBEY=",
+    "last_login": "2022-10-08T10:20:08.174Z",
+    "is_superuser": true,
+    "username": "arunkumar",
+    "first_name": "",
+    "last_name": "",
+    "email": "arun24822@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-10-07T14:50:34.172Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$OsRubKSUnpXmLwMzgbUgKb$NFqJrcoZnkiOZkHq0w3tLP+MyelfSLJEwb/D0iWtjVg=",
+    "last_login": "2022-10-08T10:19:24.751Z",
+    "is_superuser": false,
+    "username": "shreya",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-10-08T06:02:19.973Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$o6Osf8tEzIP71sm6im7STh$a/PCh5cZHvYjX7v85eMly37QX+MdIKdMmB6DqAfLQmk=",
+    "last_login": "2022-10-08T06:40:10.261Z",
+    "is_superuser": false,
+    "username": "mohit24822",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-10-08T06:40:10.164Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$CWbN6D2Tahdpcc30vHI1L5$d5wEiuj7sjwYZmb9VPCd+kfxEf9KbNh/IBiSM3/Rr3Q=",
+    "last_login": "2022-10-08T06:47:01.444Z",
+    "is_superuser": false,
+    "username": "jack",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-10-08T06:47:01.347Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "movie",
+    "model": "movie"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "news",
+    "model": "news"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "movie",
+    "model": "review"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zl4nrpd031jo21mo5yiqega7qwcfebuy",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP-FsyEsj7p49O43kGWhUjWQlPZk_HdD0oNeZybzFoH2rYS95zUsSVwEiNMvi8TPXIdID6r3JrnVbV2iHIk8bJe3lvLrerR_g0K9jG12SnNEn3nW3rAzHtlpBJyVtawApomTYTaejEMGiHD25K0jbRUm8fkCzSQ3DQ:1oh2uv:4H5oamzz1VliYArWMnEYBSq-fHvOJBwWPU9roJXl170",
+    "expire_date": "2022-10-22T06:02:33.728Z"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 1,
+  "fields": {
+    "title": "Thor",
+    "description": "Thor Odinson",
+    "image": "movie/images/thor.jpg",
+    "url": "https://www.imdb.com/title/tt0800369/"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 2,
+  "fields": {
+    "title": "Deadpool",
+    "description": "Polverine",
+    "image": "movie/images/deadpool.jpg",
+    "url": "https://www.google.com/search?client=firefox-b-d&q=deadpool"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 3,
+  "fields": {
+    "title": "Captain America : Civil War",
+    "description": "Cap vs Iron Man",
+    "image": "movie/images/civilwar.jpg",
+    "url": "https://www.google.com/search?q=captain+america+civil+war&client=firefox-b-d&ei=YUxAY8ntOsHg4-EPzIaa2Aw&ved=0ahUKEwiJoofsvc76AhVB8DgGHUyDBssQ4dUDCA0&uact=5&oq=captain+america+civil+war&gs_lcp=Cgdnd3Mt"
+  }
+},
+{
+  "model": "movie.review",
+  "pk": 1,
+  "fields": {
+    "text": "I love this movie. 10 out of 10.",
+    "date": "2022-10-08T09:16:05.922Z",
+    "user": 2,
+    "movie": 1,
+    "watchAgain": true
+  }
+},
+{
+  "model": "movie.review",
+  "pk": 2,
+  "fields": {
+    "text": "Average Movie. 5.5/10.",
+    "date": "2022-10-08T09:36:25.120Z",
+    "user": 1,
+    "movie": 1,
+    "watchAgain": true
+  }
+},
+{
+  "model": "movie.review",
+  "pk": 5,
+  "fields": {
+    "text": "Nice movie. 9.5/10",
+    "date": "2022-10-08T10:23:39.943Z",
+    "user": 1,
+    "movie": 2,
+    "watchAgain": true
+  }
+},
+{
+  "model": "news.news",
+  "pk": 1,
+  "fields": {
+    "headline": "Watch Brazil’s election. The Amazon depends on it.",
+    "body": "The presidential election in Brazil means more than the future of the country. The Amazon and the fight against climate change could depend on it.",
+    "date": "2022-10-07"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 2,
+  "fields": {
+    "headline": "Media glare can enrich tennis pros yet imperil men",
+    "body": "Tennis pros can leverage social media to win lucrative endorsements. But they can also be the target of abuse that threatens their mental health.",
+    "date": "2022-10-07"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 3,
+  "fields": {
+    "headline": "Decoder: With Artemis, US aims to return humans to",
+    "body": "It’s been 50 years since humans walked on the Moon. Now, the U.S. is launching a costly program to return there and possibly pave the way to Mars.",
+    "date": "2022-10-07"
+  }
+}
+]
