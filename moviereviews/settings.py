@@ -90,8 +90,6 @@ DATABASES = {
         'NAME': 'arunkumar',
         'USER': 'movieuser',
         'PASSWORD': 'movieuser123',
-        'HOST': 'localhost',
-        'PORT': '5435',
     }
 }
 
