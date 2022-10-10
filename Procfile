@@ -1,2 +1,1 @@
-release: python3 manage.py migrate
-web: gunicorn moviereviews.wsgi:application --log-file -
+web: gunicorn moviereviews.wsgi:apllication --log-file -
